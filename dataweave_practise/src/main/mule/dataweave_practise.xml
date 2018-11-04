@@ -18,5 +18,6 @@ output application/json
 "hyphenate" : ["a","b","c"] joinBy "-"]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="84732651-1a8b-48ac-94b9-1ff422d968a8" />
 	</flow>
 </mule>
